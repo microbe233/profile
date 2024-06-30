@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+
+  "scripts": {
+    "postinstall": "xcopy /E /I /Y node_modules\\bootstrap\\dist public\\vendor\\bootstrap"
+  }
+
+}
